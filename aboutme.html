@@ -1,74 +1,191 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    body {
-      background-color:#336699;
-      font-family: tahoma;
-    }
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    article {
-      float: right;
-    }
-
-    nav {
-      float: left;
-    }
-
-    }
-    heading {
-      float: right;
-      margin-right: 400px;
-    }
-    
-  </style>
-<heading>
-<h1 style="font-size:500%; font-family:brush script mt;">Abby Moss</h1>
-</heading>
-<h3 style="color":#660066"</h3>
-<img src="Profile-photo.jpg" alt="Profile Photo" width="200" height="200" text-align="left">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Bootstrap 101 Template</title>
+
+<!-- Bootstrap -->
+<link href="style.css" rel="stylesheet">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 </head>
 
-<body style="background-color:#336699;">
 
-<h3>Me, Myself, and I</h3>
+<body style = "background:#D5D5D5">
+
+
+
+
+
+
+
+
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+              <li><a href="#aboutme">Me, Myself, and I</a></li>
+              <li><a href="#websites">Websites That Are My LifeBlood</a></li>
+              <li><a href="#sidescrollt">My Side Scroller Game</a></li>
+              <li><a href="#text">Text Adventure Game</a></li>
+              <li><a href="#obamicon">Obamicon</a></li>
+              <li><a href="#robot">Maze Exploring Robot</a></li>
+              <li><a href="#bigger">Things I like and Things I don't</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+
+
+
+<div class="parent">
+    <div id="title">
+      <h1 style="font-size:1000%; font-family:brush script mt;"><center>Abby Moss</center></h1>
+    </div>
+
+    <div id="prof">
+      <img src="Profile-photo.jpg" alt="Profile Photo" width="300" height="300" text-align="left">
+    </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div id="aboutme" align="center">
+  <h3>Me, Myself, and I</h3>
   <p>Hello everyone. My name is Abby. I'm 17 years old and I am learning html at the Girls Who Code program at Electronic Arts. I live in
   California and I have an older brother and an older sister.</p>
+</div>
 
-<h3>Websites That Are My Lifeblood</h3>
-<p><a href="http://www.boredbutton.com/" style=color:#660066 >Bored Button</a>,
-<a href="https://www.netflix.com/" style=color:#660066 >Netlfix</a>,
-<a href="https://www.spotify.com/us/" style=color:#660066 >Spotify</a>, and
-<a href="https://www.cliffsnotes.com/" style=color:#660066 >CliffsNotes</a></p>
+<div class="centerdiv" id="websites" align="center">
+  <h3>Websites That Are My Lifeblood</h3>
+  <p><a href="http://www.boredbutton.com/" style=color:#660066 >Bored Button</a>,
+  <a href="https://www.netflix.com/" style=color:#660066 >Netlfix</a>,
+  <a href="https://www.spotify.com/us/" style=color:#660066 >Spotify</a>, and
+  <a href="https://www.cliffsnotes.com/" style=color:#660066 >CliffsNotes</a> </p>
+</div>
 
+<div class="bigdiv" align="center" id="first">
 
-<h3>My Side Scroller Game</h3>
-<img src="SideScrollerScreenShot.PNG" alt="Side Scroller Game" width="400" height="300" text-align=left>
+  <div class="smalldiv" id="sidescrollt" align="center">
+    <h3>My Side Scroller Game</h3>
+    <p>This was the side scroller game my group worked on. It's called <i>Slay Girl Slay</i>. It's about a female dragon slayer who has to dodge
+      the fireballs from a dragon. The game has two levels as the dragon slayer approaches a castle where the dragon resides.</p>
+      <div id="sidescroll" align="center">
+        <img src="Side Scroller Screen Shot.png" alt="Side Scroller Game" width="400" height="300" style=float:"right";>
+      </div>
+      <br>
+  </div>
+  <div id="text" align="center">
+    <h3>Text Adventure Story</h3>
+    <p>This is my partner and I's choose your own adventure story about a person who is trying to run home and finds several obstacles he has to pass. This is a screenshot of some of the code.</p>
+    <br>
+    <div id="textpic">
+      <img src="TextAdventureScreenShot.PNG" alt="Text Adventure Code" width="400" height="300";>
+    </div>
+    <br>
+  </div>
 
-<p>This was the side scroller game my group worked on. It's called <i>Slay Girl Slay</i>. It's about a female dragon slayer who has to dodge
-the fireballs from a dragon. The game has two levels as the dragon slayer approaches a castle where the dragon resides.</p>
+<div id="obamicon" align="center">
+  <h3>Obamicon</h3>
+  <p>This was the Obamicon picture my partner and I made. We played with the intensity of the pixels.</p>
+  <br><br><br>
+  <div id="img">
+    <img src="recoloredImage.jpg" alt="Obamicon Image" width="350" height="250";>
+  </div>
 
-<h3>Obamicon</h3>
-<p>This was the Obamicon picture my partner and I made. We played with the intensity of the pixels</p>
+</div>
 
-<img src="recoloredImage.jpg" alt="Obamicon Image" width="400" height="300";>
+<div id="robot" align="center">
+  <h3>Maze Exploring Robot</h3>
+  <p>This is Buddy, my group's robot that we programed to sense obstacles in a maze and find its way out. The signs are some of the encouragement we gave him.</p>
+  <br>
+  <div id="buddy">
+    <img src="RobotMaze.PNG" alt="Robot Image" width="400" height="300";>
+  </div>
+  <br>
+</div>
+<br>
 
-<br><br><br><br><br>
+<div id="bigger">
+  <h3 align="center">Things I like and Things I don't</h3>
+  <br>
+  <div id="lik">
+    <h4>Likes</h4>
+    <p>
+    <li>Doggos
+    <li>Math
+    <li>Video games
+    <li>Reading
+    <li>Volleyball
+  </div>
 
-<h3>Things I Like and Things I Don't</h3>
-
-<nav>
-  <h4>Likes</h4>
-  <p>Doggos<br>Math<br>Video games<br>Reading<br>Volleyball</p>
-</nav>
-
-<article>
-  <h4>Dislikes</h4>
-  <p>Coke/Pepsi<br>Wearing makeup<br>Hot weather<br>History<br>The book series <i>Life as We Knew It</it></p>
-</article>
-
-
+  <div id="dis">
+    <h4>Dislikes</h4>
+    <p>
+    <li>Coke/Pepsi
+    <li>Wearing makeup
+    <li>Hot weather
+    <li>History
+    <li>The book series<i> Life as We Knew It</i>
+  </div>
+  <br>
+</div>
+<br><br>
 </body>
 </html>
