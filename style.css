@@ -1,0 +1,83 @@
+<style>
+  #dis {
+    float: right;
+    width: 50%;
+  }
+  #lik {
+    float: left;
+    width: 50%;
+  }
+  nav {
+    float: left;
+  }
+  div.centerdiv {
+    float: center;
+    width: 100%;
+    background-color: #6D7993;
+  }
+  div.leftdiv {
+    float: left;
+    width: 100%;
+    background-color: #96858F;
+  }
+  div.rightdiv {
+    float: right;
+    width: 50%;
+  }
+  div.bigdiv {
+    width: 100%;
+  }
+  div.smalldiv {
+    background-color: #9099A2;
+  }
+  #img {
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  #title {
+    width: 75%;
+    height: 1px;
+  }
+  #prof {
+    width:20%;
+    float: right;
+  }
+  #aboutme {
+    width: 100%;
+    background-color: #96858F;
+  }
+  #top {
+    text-align: left;
+  }
+
+  div.parent {
+    width: 80%;
+    text-align: center;
+  }
+  #sidescroll {
+    float: center;
+    width: 100%;
+    background-color: #9099A2;
+  }
+  #obamicon {
+    background-color: #96858F;
+    height:450px;
+  }
+  #bigger {
+    width: 100%;
+    text-align: center;
+    display:inline-block;
+    background-color: #9099A2;
+  }
+  .container {
+    width: 100%;
+  }
+  #robot {
+    background-color:#6D7993;
+  }
+  #text {
+    background-color: grey;
+  }
+  }
+</style>
