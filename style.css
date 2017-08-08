@@ -6,6 +6,10 @@
     float: left;
     width: 50%;
   }
+  #likes {
+    width: 100%;
+    background-color: #9099A2;
+  }
   nav {
     float: left;
   }
